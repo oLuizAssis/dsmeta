@@ -34,7 +34,7 @@ import com.twilio.type.PhoneNumber;
 					
 			String date = sale.getDate().getMonthValue() + "/" + sale.getDate().getYear();
 			
-			String msg = "A vendedora " + sale.getSellerName() + " foi segunda colocada em " + date
+			String msg = "A vendedora " + sale.getSellerName() + " foi destaque em " + date
 					+ " com um total de R$ " + String.format("%.2f", sale.getAmount()) + "." + " Algum palpite para o destaque do mês?";
 					
 
